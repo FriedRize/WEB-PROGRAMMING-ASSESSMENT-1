@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; /* Sets main font */
+    line-height: 1.6; /* Sets line spacing */
+    background-color: #0d1b2a; /* Sets page background */
+    color: #ffffff; /* Sets text color */
+}
+
+.navbar {
+    background-color: #1b263b; /* Nav background */
+    padding: 1rem; /* Space inside nav */
+    position: sticky; /* Sticks to top when scrolling */
+    top: 0; /* Position at top */
+    z-index: 10; /* Stay above other content */
+}
+
+.navbar ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Horizontal layout */
+    justify-content: left; /* Align items to left */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.navbar li {
+    margin: 0 1rem; /* Space between links */
+}
+
+.navbar a {
+    color: #e0e1dd; /* Link color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Bold text */
+}
+
+.navbar a:hover {
+    color: #ff9f1c; /* Hover link color */
+}
+
+.text-block {
+    max-width: 800px; /* Limit width */
+    margin: 2rem auto; /* Center with margin */
+    padding: 1.5rem; /* Space inside box */
+    background-color: #1b263b; /* Background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4); /* Drop shadow */
+}
+
+.button-link {
+    display: block; /* Makes it a block element */
+    width: fit-content; /* Shrinks to content width */
+    margin: 2rem auto; /* Center button */
+    padding: 1rem 2rem; /* Button padding */
+    background-color: #ff9f1c; /* Button color */
+    color: #0d1b2a; /* Text color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button-link:hover {
+    background-color: #e85d04; /* Button hover color */
+}
+
+h2 {
+    font-size: 2em; /* Bigger font size */
+    text-indent: 3em; /* Indent text */
+    background-color: #384d70; /* Background color */
+    color: #ffffff; /* Text color */
+    font-family: Georgia, "Times New Roman", serif; /* Heading font */
+    border: 5px solid #191970; /* Border around heading */
+}
+
+p {
+    font-size: 1.2em; /* Slightly larger text */
+}
