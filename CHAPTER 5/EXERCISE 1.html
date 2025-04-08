@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Character encoding -->
+  <title>ASSESSMENT 1 CHAPTER 5</title> <!-- Page title shown in browser tab -->
+
+  <!-- Styling for page layout and video -->
+  <style>
+    html, body {
+      margin: 0;              /* Remove default margin */
+      padding: 0;             /* Remove default padding */
+      height: 100%;           /* Full height for flex centering */
+      background-color: #000; /* Black background */
+      display: flex;          /* Flex layout for centering */
+      align-items: center;    /* Vertical center */
+      justify-content: center;/* Horizontal center */
+    }
+
+    video {
+      width: 80vw;            /* 80% of viewport width */
+      height: 80vh;           /* 80% of viewport height */
+      object-fit: cover;      /* Fill box, crop edges if needed */
+      border: 2px solid #fff; /* White border */
+      border-radius: 12px;    /* Rounded corners */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Video element with looping, autoplay, poster image, and controls -->
+  <video loop autoplay poster="poster.jpg" controls>
+    <source src="Your Man.mp4" type="video/mp4"> <!-- Local video file -->
+  </video>
+
+</body>
+</html>
